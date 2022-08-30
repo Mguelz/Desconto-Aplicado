@@ -2,6 +2,15 @@ package desconto_aplicado;
 
 import java.util.Scanner;
 
+/**
+ * Ler o valor de uma compra, aplicar um desconto progressivo: 
+ * 
+ * até 200 reais 4%.
+ * até 500 reais, 6%. 
+ * acima de 500, 8%.
+ * 
+ * Mostrar o valor do desconto e o valor a pagar.
+ */
 public class Desonto {
 	public static void main(String[] args) {
 		double desconto;
